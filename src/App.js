@@ -19,7 +19,7 @@ function App() {
 }
 
   return (
-    <div >
+    <div className='container'>
       <h1><img src={BG} alt="" /></h1>
       
       { user ?  

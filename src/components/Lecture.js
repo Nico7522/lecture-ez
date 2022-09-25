@@ -6,8 +6,8 @@ import '../style/style.css';
 const Lecture = () => {
     return (
        ImageList.map((img) => 
-       <div>
-        <img  src={ img.image } className='image' style={{ width: 750 }}/>
+       <div className='page'>
+        <img  src={ img.image } className='image' />
          <p className='num-page'>{ img.num }</p>
         </div> 
             
