@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+  }
+  
+  body {
+      background-color:  rgb(49, 49, 49);
+  }
+  h1 {
+   text-align: center;
+  }
+
+  .login-container {
+    border: white 2px solid;
+    width: 300px;
+    height: 200px;
+    margin: auto ;
+    background-color: black;
+    box-shadow: 2px 2px 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logout-bouton {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 10px;
+    background: none;
+    border: black;
+    font-size: 1rem;
+    cursor: pointer;
+    background: rgb(95, 95, 95);
+    color: aliceblue;
+    transition: 0.2s;
+  }
+
+  .logout-bouton:hover {
+    filter: brightness(80%);
+    transform: translateX(2px);
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+h3 {
+    color: white;
+}
+
+input[type="submit"] {
+    background: none;
+    border: black;
+    font-size: 1rem;
+    cursor: pointer;
+    background: rgb(95, 95, 95);
+    transition: 0.2s;
+  }
+
+  input[type="submit"]:hover {
+    filter: brightness(80%);
+    transform: translateX(2px);
+  }
+
+  .allimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+
+  div > .image {
+    width: 750px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    -webkit-box-shadow: 0px 4px 15px 10px #000000; 
+box-shadow: 0px 4px 15px 10px #000000;
+  }
+
+  .num-page {
+    color: wheat;
+    font-size: x-large;
+    text-align: center;
+  }
+
+

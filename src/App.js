@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import './style/style.css';
+import Connection from "./components/Connection"
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import { auth } from "./utils/firebase.config";
+import { useState } from 'react';
+import BG from "./images/titre.png"
+import Lecture from './components/Lecture';
 function App() {
+
+  const [user, setUser] = useState(null);
+
+ onAuthStateChanged(auth, (utilisateur) => {
+  setUser(utilisateur);
+ })
+
+ const Logout =async() => {
+  await signOut(auth);
+}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container' >
+      <h1><img src={BG} alt="" /></h1>
+      
+      { user ?  
+        
+        <div className="allimg">
+          <button onClick={() => Logout()} className='logout-bouton'>Déconnection</button> 
+          <Lecture /></div>
+        
+      
+      : <Connection />};
     </div>
   );
-}
+};
 
 export default App;
