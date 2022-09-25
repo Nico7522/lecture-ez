@@ -19,14 +19,15 @@ function App() {
 }
 
   return (
-    <div className='container' >
+    <div >
       <h1><img src={BG} alt="" /></h1>
       
       { user ?  
         
-        <div className="allimg">
+        <div className='all-pages'>
           <button onClick={() => Logout()} className='logout-bouton'>Déconnection</button> 
-          <Lecture /></div>
+          <Lecture />
+        </div>
         
       
       : <Connection />};

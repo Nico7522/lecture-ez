@@ -7,9 +7,9 @@ const Lecture = () => {
     return (
        ImageList.map((img) => 
        <div>
-        <img className='image' src={ img.image } />
-        <p className='num-page'>{ img.num }</p>
-        </div>
+        <img  src={ img.image } className='image' style={{ width: 750 }}/>
+         <p className='num-page'>{ img.num }</p>
+        </div> 
             
             
         
