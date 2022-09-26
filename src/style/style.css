@@ -7,11 +7,10 @@
   
   body {
     background-color:  rgb(49, 49, 49);
-    display: flex;
-
+    /* display: flex; */
   }
-  h1 {
-   text-align: center;
+  h1 > img {
+    width: 100%;
   }
 
   .login-container {
@@ -75,7 +74,10 @@ input[type="submit"] {
   }
 
   .container {
-    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
 .all-pages {
@@ -87,12 +89,11 @@ input[type="submit"] {
 }
 
   .page {
-    width: 70%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
     padding-bottom: 15px;
   }
 
@@ -113,19 +114,43 @@ input[type="submit"] {
   }
 
   @media only screen and (min-width: 1000px) {
-    body {
+    /* body {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
 
       
-    }
+    } */
+
+
 
     .logout-bouton {
       top: 5px;
       left: 5px;
       padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    /* body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      
+    } */
+
+    .container {
+
+    }
+
+    .logout-bouton {
+      top: 60px;
+      left: 0px;
+      padding: 1px;
+      width: 30%;
     }
   }
 
