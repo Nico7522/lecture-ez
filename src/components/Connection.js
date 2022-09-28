@@ -2,6 +2,7 @@ import React from 'react';
 import { useRef } from 'react';
 import { auth } from "../utils/firebase.config";
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import imgCo from '../images/backgroundEZ.png'
 import '../style/style.css';
 
 const Connection = () => {
@@ -32,10 +33,11 @@ const Connection = () => {
                 <input type="email" placeholder='Email' required ref={Email} />
                 <input type="password" placeholder='Mot de passe' required ref={Password} />
                 <input type="submit" value="Se connecter" />
+                <img src={imgCo} style={{ width: '60px', height: 'auto'}} />
             </form>
         </div>
      </div>
     );
-};
+}
 
 export default Connection;

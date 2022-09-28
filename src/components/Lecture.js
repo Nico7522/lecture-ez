@@ -7,7 +7,7 @@ const Lecture = () => {
     return (
        ImageList.map((img) => 
        <div className='page'>
-        <img  src={ img.image } className='image' />
+        <img  src={ img.image } className={ img.double ? 'd' : 'image' }/>
          <p className='num-page'>{ img.num }</p>
         </div> 
             

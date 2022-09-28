@@ -16,7 +16,7 @@
   .login-container {
     border: white 2px solid;
     width: 300px;
-    height: 200px;
+    height: 250px;
     margin: auto ;
     background-color: black;
     box-shadow: 2px 2px 2px 2px;
@@ -99,6 +99,12 @@ input[type="submit"] {
 
   .image {
     width: 100%;
+    -webkit-box-shadow: 0px 4px 15px 10px #000000; 
+    box-shadow: 0px 4px 15px 10px #000000;
+  }
+
+  .d {
+    width: 170%;
     -webkit-box-shadow: 0px 4px 15px 10px #000000; 
     box-shadow: 0px 4px 15px 10px #000000;
   }

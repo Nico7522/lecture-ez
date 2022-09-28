@@ -11,7 +11,7 @@ import img10 from "../pages/10.jpg";
 import img11 from "../pages/11.jpg";
 import img12 from "../pages/12.jpg";
 import img13 from "../pages/13.jpg";
-import img14 from "../pages/14.jpg";
+// import img14 from "../pages/14.jpg";
 import img15 from "../pages/15.jpg";
 import img16 from "../pages/16.jpg";
 import img17 from "../pages/17.jpg";
@@ -22,7 +22,7 @@ import img20 from "../pages/20.jpg";
 export const ImageList = [
     {
         image: img1,
-        num: 1
+        num: 1,
     },
     {
         image: img2,
@@ -72,13 +72,14 @@ export const ImageList = [
         image: img13,
         num: 13
     },
-    {
-        image: img14,
-        num: 14
-    },
+    // {
+    //     image: img14,
+    //     num: 14
+    // },
     {
         image: img15,
-        num: 15
+        num: ' 14 et 15 ',
+        double: true
     },
     {
         image: img16,
