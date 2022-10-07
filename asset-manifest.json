@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lecture-ez/static/css/main.a34a16ca.css",
-    "main.js": "/lecture-ez/static/js/main.bf481ba2.js",
+    "main.css": "/lecture-ez/static/css/main.90db69c1.css",
+    "main.js": "/lecture-ez/static/js/main.62f89d5b.js",
     "static/media/15.jpg": "/lecture-ez/static/media/15.735472845024145b8369.jpg",
     "static/media/11.jpg": "/lecture-ez/static/media/11.c51c776699eca57770c0.jpg",
     "static/media/13.jpg": "/lecture-ez/static/media/13.5469c975d771315d86bc.jpg",
@@ -24,11 +24,11 @@
     "static/media/backgroundEZ.png": "/lecture-ez/static/media/backgroundEZ.a45b6f4eaee541ea15b9.png",
     "static/media/titre.png": "/lecture-ez/static/media/titre.0183f8d64fbf4febd610.png",
     "index.html": "/lecture-ez/index.html",
-    "main.a34a16ca.css.map": "/lecture-ez/static/css/main.a34a16ca.css.map",
-    "main.bf481ba2.js.map": "/lecture-ez/static/js/main.bf481ba2.js.map"
+    "main.90db69c1.css.map": "/lecture-ez/static/css/main.90db69c1.css.map",
+    "main.62f89d5b.js.map": "/lecture-ez/static/js/main.62f89d5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a34a16ca.css",
-    "static/js/main.bf481ba2.js"
+    "static/css/main.90db69c1.css",
+    "static/js/main.62f89d5b.js"
   ]
 }
