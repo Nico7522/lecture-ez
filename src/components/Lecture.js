@@ -1,19 +1,22 @@
-import React from 'react';
+import React, { Fragment, useState } from 'react';
 import { ImageList } from './Pages';
+import ListeDeroulante from './ListeDeroulante';
 import '../style/style.css';
 
 
 const Lecture = () => {
+
+   
     return (
-       ImageList.map((img) => 
-       <div className='page'>
+        <Fragment >
+            <ListeDeroulante />
+       { ImageList.map((img) => (
+       <div className='page' id={ img.id }>
         <img  src={ img.image } className={ img.double ? 'd' : 'image' }/>
-         <p className='num-page'>{ img.num }</p>
+         <p className='num-page' >{ img.num }</p>
         </div> 
-            
-            
-        
-       )
+       ))}
+       </Fragment>
     );
 };
 

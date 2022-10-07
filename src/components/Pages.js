@@ -46,7 +46,8 @@ export const ImageList = [
     },
     {
         image: img7,
-        num: 7
+        num: 7,
+        id: 7
     },
     {
         image: img8,
@@ -99,7 +100,8 @@ export const ImageList = [
     },
     {
         image: img20,
-        num: 20
+        num: 20,
+        id: 20
     },
    
 ];
