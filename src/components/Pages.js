@@ -23,26 +23,32 @@ export const ImageList = [
     {
         image: img1,
         num: 1,
+        id: 1
     },
     {
         image: img2,
-        num: 2
+        num: 2,
+        id: 2
     },
     {
         image: img3,
-        num: 3
+        num: 3,
+        id: 3
     },
     {
         image: img4,
-        num: 4
+        num: 4,
+        id: 4
     },
     {
         image: img5,
-        num: 5
+        num: 5,
+        id: 5
     },
     {
         image: img6,
-        num: 6
+        num: 6,
+        id: 6
     },
     {
         image: img7,
@@ -51,27 +57,33 @@ export const ImageList = [
     },
     {
         image: img8,
-        num: 8
+        num: 8,
+        id: 8
     },
     {
         image: img9,
-        num: 9
+        num: 9,
+        id: 9
     },
     {
         image: img10,
-        num: 10
+        num: 10,
+        id: 10
     },
     {
         image: img11,
-        num: 11
+        num: 11,
+        id: 11
     },
     {
         image: img12,
-        num: 12
+        num: 12,
+        id: 12
     },
     {
         image: img13,
-        num: 13
+        num: 13,
+        id: 13
     },
     // {
     //     image: img14,
@@ -80,23 +92,28 @@ export const ImageList = [
     {
         image: img15,
         num: ' 14 et 15 ',
-        double: true
+        double: true,
+        id: 14.15
     },
     {
         image: img16,
-        num: 16
+        num: 16,
+        id: 16
     },
     {
         image: img17,
-        num: 17
+        num: 17,
+        id: 17
     },
     {
         image: img18,
-        num: 18
+        num: 18,
+        id: 18
     },
     {
         image: img19,
-        num: 19
+        num: 19,
+        id: 19
     },
     {
         image: img20,
