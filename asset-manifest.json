@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lecture-ez/static/css/main.78c0fdd2.css",
-    "main.js": "/lecture-ez/static/js/main.c0cd7f07.js",
+    "main.js": "/lecture-ez/static/js/main.9b99d4fc.js",
     "static/media/15.jpg": "/lecture-ez/static/media/15.735472845024145b8369.jpg",
     "static/media/11.jpg": "/lecture-ez/static/media/11.c51c776699eca57770c0.jpg",
     "static/media/13.jpg": "/lecture-ez/static/media/13.5469c975d771315d86bc.jpg",
@@ -25,10 +25,10 @@
     "static/media/titre.png": "/lecture-ez/static/media/titre.0183f8d64fbf4febd610.png",
     "index.html": "/lecture-ez/index.html",
     "main.78c0fdd2.css.map": "/lecture-ez/static/css/main.78c0fdd2.css.map",
-    "main.c0cd7f07.js.map": "/lecture-ez/static/js/main.c0cd7f07.js.map"
+    "main.9b99d4fc.js.map": "/lecture-ez/static/js/main.9b99d4fc.js.map"
   },
   "entrypoints": [
     "static/css/main.78c0fdd2.css",
-    "static/js/main.c0cd7f07.js"
+    "static/js/main.9b99d4fc.js"
   ]
 }
