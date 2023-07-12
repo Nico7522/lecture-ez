@@ -18,6 +18,26 @@ import img17 from "../pages/17.jpg";
 import img18 from "../pages/18.jpg";
 import img19 from "../pages/19.jpg";
 import img20 from "../pages/20.jpg";
+import img21 from "../pages/21.png"
+import img22 from "../pages/22.png"
+import img23 from "../pages/23.png"
+import img24 from "../pages/24.png"
+import img25 from "../pages/25.png"
+import img26 from "../pages/26.png"
+import img27 from "../pages/27.png"
+import img28 from "../pages/28.png"
+import img29 from "../pages/29.png"
+import img30 from "../pages/30.png"
+import img31 from "../pages/31.png"
+import img32 from "../pages/32.png"
+import img33 from "../pages/33.png"
+import img34 from "../pages/34.png"
+import img35 from "../pages/35.png"
+import img36 from "../pages/36.png"
+import img37 from "../pages/37.png"
+import img38 from "../pages/38.png"
+import img39 from "../pages/39.png"
+import img40 from "../pages/40.png"
 
 export const ImageList = [
     {
@@ -119,6 +139,106 @@ export const ImageList = [
         image: img20,
         num: 20,
         id: 20
+    },
+    {
+        image: img21,
+        num: 1,
+        id: 21
+    },
+    {
+        image: img22,
+        num: 2,
+        id: 22
+    },
+    {
+        image: img23,
+        num: 3,
+        id: 23
+    },
+    {
+        image: img24,
+        num: 4,
+        id: 24
+    },
+    {
+        image: img25,
+        num: 5,
+        id: 25
+    },
+    {
+        image: img26,
+        num: 6,
+        id: 26
+    },
+    {
+        image: img27,
+        num: 7,
+        id: 27
+    },
+    {
+        image: img28,
+        num: 8,
+        id: 28
+    },
+    {
+        image: img29,
+        num: 9,
+        id: 29
+    },
+    {
+        image: img30,
+        num: 10,
+        id: 30
+    },
+    {
+        image: img31,
+        num: 11,
+        id: 31
+    },
+    {
+        image: img32,
+        num: 12,
+        id: 32
+    },
+    {
+        image: img33,
+        num: 13,
+        id: 33
+    },
+    {
+        image: img34,
+        num: 14,
+        id: 34
+    },
+    {
+        image: img35,
+        num: 15,
+        id: 35
+    },
+    {
+        image: img36,
+        num: 16,
+        id: 36
+    },
+    {
+        image: img37,
+        num: 17,
+        id: 37
+    },
+    {
+        image: img38,
+        num: 18,
+        id: 38
+    },
+    {
+        image: img39,
+        num: 19,
+        id: 39
+    },
+    {
+        image: img40,
+        num: 20,
+        id: 40
     },
    
 ];

@@ -1,13 +1,18 @@
 import React from 'react';
 import '../style/style.css';
-const ListeDeroulante = () => {
-
+const ListeDeroulante = ({imageList}) => {
+    
     return (
 <div className="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Pages
   </button>
-  <ul class="dropdown-menu">
+  <ul className='dropdown-menu'>
+    {imageList.map(p => {
+       return <li key={p.image}><a key={p.id} className="dropdown-item" href={`#${p.id}`}>{p.num}</a></li>
+    })}
+  </ul>
+  {/* <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="#1">1</a></li>
     <li><a class="dropdown-item" href="#2">2</a></li>
     <li><a class="dropdown-item" href="#3">3</a></li>
@@ -28,7 +33,7 @@ const ListeDeroulante = () => {
     <li><a class="dropdown-item" href="#18">18</a></li>
     <li><a class="dropdown-item" href="#19">19</a></li>
     <li><a class="dropdown-item" href="#20">20</a></li>
-  </ul>
+  </ul> */}
 </div>
     );
 };
