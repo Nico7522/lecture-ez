@@ -21,8 +21,8 @@ const ListeDeroulante = () => {
     <li><a class="dropdown-item" href="#11">11</a></li>
     <li><a class="dropdown-item" href="#12">12</a></li>
     <li><a class="dropdown-item" href="#13">13</a></li>
-    <li><a class="dropdown-item" href="#14.15">14 et 15</a></li>
-    {/* <li><a class="dropdown-item" href="#15">15</a></li> */}
+    <li><a class="dropdown-item" href="#14">14</a></li>
+    <li><a class="dropdown-item" href="#15">15</a></li>
     <li><a class="dropdown-item" href="#16">16</a></li>
     <li><a class="dropdown-item" href="#17">17</a></li>
     <li><a class="dropdown-item" href="#18">18</a></li>
