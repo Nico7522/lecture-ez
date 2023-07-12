@@ -107,7 +107,8 @@ export const ImageList = [
     },
     {
         image: img14,
-        num: 14
+        num: 14,
+        id: 14
     },
     {
         image: img15,

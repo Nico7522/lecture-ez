@@ -9,7 +9,7 @@ const ListeDeroulante = ({imageList}) => {
   </button>
   <ul className='dropdown-menu'>
     {imageList.map(p => {
-       return <li key={p.image}><a key={p.id} className="dropdown-item" href={`#${p.id}`}>{p.num}</a></li>
+       return <li key={p.id}><a key={p.id} className="dropdown-item" href={`#${p.id}`}>{p.num}</a></li>
     })}
   </ul>
   {/* <ul class="dropdown-menu">

@@ -8,7 +8,7 @@ const Lecture = () => {
     <Fragment>
       <ListeDeroulante imageList={ImageList} />
       {ImageList.map((img) => (
-        <div key={img.image} className="page" id={img.id}>
+        <div key={img.id} className="page" id={img.id}>
           <img src={img.image} className={img.double ? "d" : "image"} />
           <p  className="num-page">{img.num}</p>
         </div>
