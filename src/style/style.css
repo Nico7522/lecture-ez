@@ -139,6 +139,22 @@ input[type="submit"] {
     text-align: center;
   }
 
+  .preview {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+
+  #twitter-widget-2  {
+    width: 1500px !important;
+  }
+
+
+
   @media only screen and (max-width: 1330px) {
 
     .logout-bouton {
@@ -192,6 +208,9 @@ input[type="submit"] {
   li >  .dropdown-item {
     padding: 3px;
    }
+   #twitter-widget-2  {
+    width: 300px !important;
+  }
   }
 
 
