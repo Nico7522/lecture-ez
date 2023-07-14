@@ -2,7 +2,11 @@ import React, { Fragment } from "react";
 import { ImageList } from "./Pages";
 import ListeDeroulante from "./ListeDeroulante";
 import "../style/style.css";
-import { TwitterVideoEmbed } from "react-twitter-embed";
+import {
+  TwitterVideoEmbed,
+  TwitterTweetEmbed,
+  TwitterTimelineEmbed,
+} from "react-twitter-embed";
 
 const Lecture = () => {
   return (
@@ -19,15 +23,10 @@ const Lecture = () => {
         </div>
       ))}
 
-      <div className="preview">
-        <h3>Preview du prochain chapitre</h3>
-        <TwitterVideoEmbed
-          id={"1679147795687809024"}
-          options={{
-            height: "100px"
-          }}
-          className="video-preview"
-        />
+      <div  className="preview">
+        <h3>Preview du prochain chapitre par Sam</h3>
+
+        <TwitterTweetEmbed tweetId={"1679147795687809024"} options={{height: '2200px'}} />
       </div>
     </Fragment>
   );
