@@ -26,7 +26,7 @@ const Lecture = () => {
       <div  className="preview">
         <h3>Preview du prochain chapitre par Sam</h3>
 
-        <TwitterTweetEmbed tweetId={"1679147795687809024"} options={{height: '2200px'}} />
+        <TwitterTweetEmbed tweetId={"1681643439396454403"} options={{height: '2200px'}} />
       </div>
     </Fragment>
   );
