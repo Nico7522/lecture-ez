@@ -1,6 +1,12 @@
-const pages = ['./image1.jpg' , './image2.jpg' , './image3.jpg', './image4.jpg', './image5.jpg', './image6.jpg', './image7.jpg', './image8.jpg', './image9.jpg', './image10.jpg','./image11.jpg', './image12.jpg', './image13.jpg', './image14.jpg', './image15.jpg', './image16.jpg', './image17.jpg', './image18.jpg', './image19.jpg', './image20.jpg', './image21.png' , './image22.png' , './image23.png', './image24.png', './image25.png', './image26.png', './image27.png', './image28.png', './image29.png', './image30.png','./image31.png', './image32.png', './image33.png', './image34.png', './image35.png', './image36.png', './image37.png', './image38.png', './image39.png', './image40.png'];
+const pages = [
+  './image1.png', './image2.png', './image3.png', './image4.png', './image5.png',
+  './image6.png', './image7.png', './image8.png', './image9.png', './image10.png',
+  './image11.png', './image12.png', './image13.png', './image14.png', './image15.png',
+  './image16.png', './image17.png', './image18.png', './image19.png'
+ 
+];
 const liste = document.querySelector('ul');
-const numDesPages = ['1' , '2' , '3', '4', '5', '6', '7', '8', '9', '10','11','12', '13', '14', '15', '16', '17', '18', '19', '20', '1' , '2' , '3', '4', '5', '6', '7', '8', '9', '10','11','12', '13', '14', '15', '16', '17', '18', '19', '20'];
+const numDesPages = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19'];
 // const searchPage = document.querySelector('.recherche-page input')
 
 
@@ -11,7 +17,7 @@ for(let i = 0; i < pages.length; i++){
     const imgPage = document.createElement('img');
      imgPage.src = pages[i];
      numPage.innerText = numDesPages[i];
-     if (pages[i] === "./doublepage.jpg" || pages[i] === "./doublepage1.jpg") {
+     if (pages[i] === "./image14.png") {
         imgPage.style.width = "1300px";
       }
     
