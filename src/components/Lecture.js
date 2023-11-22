@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import { ImageList } from "./Pages";
-import ListeDeroulante from "./ListeDeroulante";
+// import ListeDeroulante from "./ListeDeroulante";
 import "../style/style.css";
 
 
 const Lecture = () => {
   return (
     <Fragment>
-      <ListeDeroulante imageList={ImageList} />
+      {/* <ListeDeroulante imageList={ImageList} /> */}
       {ImageList.map((img) => (
         <div key={img.id} className="page" id={img.id}>
           <img
