@@ -22,7 +22,7 @@ const Lecture = () => {
         idNumber = 1;
       }
       temp.push({
-        imgUrl: `${process.env.REACT_APP_IMG_URL}${imgNumber}.png`,
+        imgUrl: `${process.env.REACT_APP_IMG_URL_LOCAL}${imgNumber}.png`,
         num : pageNumber,
         id: idNumber,
         double: i === 14 || i === 35 ? true : false
