@@ -36,6 +36,25 @@ import img35 from "../pages/image35.png";
 import img36 from "../pages/image36.png";
 import img37 from "../pages/image37.png";
 import img38 from "../pages/image38.png";
+// import img39 from "../pages/image39.png";
+// import img40 from "../pages/image40.png";
+// import img41 from "../pages/image41.png";
+// import img42 from "../pages/image42.png";
+// import img43 from "../pages/image43.png";
+// import img44 from "../pages/image44.png";
+// import img45 from "../pages/image45.png";
+// import img46 from "../pages/image46.png";
+// import img47 from "../pages/image47.png";
+// import img48 from "../pages/image48.png";
+// import img49 from "../pages/image49.png";
+// import img50 from "../pages/image50.png";
+// import img51 from "../pages/image51.png";
+// import img52 from "../pages/image52.png";
+// import img53 from "../pages/image53.png";
+// import img54 from "../pages/image54.png";
+// import img55 from "../pages/image55.png";
+// import img56 from "../pages/image56.png";
+// import img57 from "../pages/image57.png";
 
 
 
@@ -233,6 +252,112 @@ export const ImageList = [
         image: img38,
         num: 19,
         id: 38
-    }
+    },
+    // {
+    //     image: img39,
+    //     num: 1,
+    //     id: 39
+    // },
+    // {
+    //     image: img40,
+    //     num: 2,
+    //     id: 40
+    // },
+    // {
+    //     image: img41,
+    //     num: 3,
+    //     id: 41
+    // },
+    // {
+    //     image: img42,
+    //     num: 4,
+    //     id: 42
+    // },
+    // {
+    //     image: img43,
+    //     num: 5,
+    //     id: 43
+    // },
+    // {
+    //     image: img44,
+    //     num: 6,
+    //     id: 44
+    // },
+    // {
+    //     image: img45,
+    //     num: 7,
+    //     id: 45
+    // },
+    // {
+    //     image: img46,
+    //     num: 8,
+    //     id: 46
+    // },
+    // {
+    //     image: img47,
+    //     num: 9,
+    //     id: 47
+    // },
+    // {
+    //     image: img48,
+    //     num: 10,
+    //     id: 48
+    // },
+    // {
+    //     image: img49,
+    //     num: 11,
+    //     id: 49
+    // },
+    // {
+    //     image: img50,
+    //     num: 12,
+    //     id: 50
+    // },
+    // {
+    //     image: img51,
+    //     num: 13,
+    //     id: 51
+    // },
+    // {
+    //     image: img52,
+    //     num: 14,
+    //     id: 52
+    // },
+    // {
+    //     image: img53,
+    //     num: 15,
+    //     id: 53
+    // },
+    // {
+    //     image: img54,
+    //     num: 16,
+    //     id: 54
+    // },
+    // {
+    //     image: img55,
+    //     num: 17,
+    //     id: 55
+    // },
+    // {
+    //     image: img56,
+    //     num: 18,
+    //     id: 56
+    // },
+    // {
+    //     image: img57,
+    //     num: 19,
+    //     id: 57
+    // },
+    // {
+    //     image: img58,
+    //     num: 20,
+    //     id: 58
+    // },
+    // {
+    //     image: img59,
+    //     num: 21,
+    //     id: 59
+    // },
+
 ];
 
