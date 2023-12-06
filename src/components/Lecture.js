@@ -15,17 +15,17 @@ const Lecture = () => {
     let pageNumber = 1;
     let idNumber = 1;
     let temp = [];
-    while (i < 61) {
+    while (i < 21) {
    
-      if (i === 20 || i === 39) {
-        pageNumber = 1;
-        idNumber = 1;
-      }
+      // if (i === 20 || i === 39) {
+      //   pageNumber = 1;
+      //   idNumber = 1;
+      // }
       temp.push({
         imgUrl: `${process.env.REACT_APP_IMG_URL}${imgNumber}.png`,
         num : pageNumber,
         id: idNumber,
-        double: i === 14 || i === 35  || i === 41 || i === 59 ? true : false
+        // double: i === 14 || i === 35  || i === 41 || i === 59 ? true : false
       })
       pageNumber++;
       imgNumber++;
