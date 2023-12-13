@@ -8,24 +8,24 @@ import { useState } from "react";
 
 
 const Lecture = () => {
-   const [arrayPage, setArrayPage ] = useState([])
+   const [arrayPage, setArrayPage] = useState([])
   useEffect(() => {
     let i = 1;
     let imgNumber = 1;
     let pageNumber = 1;
     let idNumber = 1;
     let temp = [];
-    while (i < 21) {
+    while (i < 40) {
    
-      // if (i === 20 || i === 39) {
-      //   pageNumber = 1;
-      //   idNumber = 1;
-      // }
+      if (i === 21) {
+        pageNumber = 1;
+        idNumber = 1;
+      }
       temp.push({
         imgUrl: `${process.env.REACT_APP_IMG_URL}${imgNumber}.png`,
         num : pageNumber,
         id: idNumber,
-        // double: i === 14 || i === 35  || i === 41 || i === 59 ? true : false
+        double: i === 38 ? true : false
       })
       pageNumber++;
       imgNumber++;
