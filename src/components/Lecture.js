@@ -15,9 +15,9 @@ const Lecture = () => {
     let pageNumber = 1;
     let idNumber = 1;
     let temp = [];
-    while (i < 38) {
+    while (i < 58) {
    
-      if (i === 20) {
+      if (i === 20 || i === 38) {
         pageNumber = 1;
         idNumber = 1;
       }
