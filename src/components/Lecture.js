@@ -15,9 +15,9 @@ const Lecture = () => {
     let pageNumber = 1;
     let idNumber = 1;
     let temp = [];
-    while (i < 97) {
+    while (i < 118) {
    
-      if (i === 20 || i === 38 || i === 58 || i === 77 ) {
+      if (i === 20 || i === 38 || i === 58 || i === 77 || i === 97 ) {
         pageNumber = 1;
         idNumber = 1;
       }
@@ -25,7 +25,7 @@ const Lecture = () => {
         imgUrl: `${process.env.REACT_APP_IMG_URL}${imgNumber}.png`,
         num : pageNumber,
         id: idNumber,
-        double: i === 14  || i === 21 || i === 34 || i === 59 ? true : false
+        double: i === 14  || i === 21 || i === 34 || i === 59 || i === 98 || i === 116 ? true : false
       })
       pageNumber++;
       imgNumber++;
