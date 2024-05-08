@@ -15,9 +15,9 @@ const Lecture = () => {
     let pageNumber = 1;
     let idNumber = 1;
     let temp = [];
-    while (i < 231) {
+    while (i < 251) {
    
-      if (i === 20 || i === 38 || i === 58 || i === 77 || i === 97 || i === 118 || i === 137 || i === 156 || i === 175 || i === 193 || i === 212) {
+      if (i === 20 || i === 38 || i === 58 || i === 77 || i === 97 || i === 118 || i === 137 || i === 156 || i === 175 || i === 193 || i === 212 || i === 231 ) {
         pageNumber = 1;
         idNumber = 1;
       }
